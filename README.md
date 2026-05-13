@@ -2,7 +2,9 @@
 
 <br/>
 
-<img src="https://assets.celestiahub.web.id/img/elyvianame.jpg" alt="ElyviaFlow" width="520"/>
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/img/elyvianame.png" width="500">
+</p>
 
 
 **Debian Server Administration — Practical Reference**
