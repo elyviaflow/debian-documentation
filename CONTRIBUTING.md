@@ -267,7 +267,6 @@ systemctl status nginx
 ```
 
 > **Note:** Use blockquotes for important notes or warnings.
-````
 ---
 
 ## Next Steps
@@ -275,7 +274,7 @@ systemctl status nginx
 - Related guide link
 - Related guide link
 
-```
+````
 Additional Formatting Rules
 
 Use `#` only once for the page title
@@ -294,9 +293,9 @@ Always specify language tags for code blocks
 
 systemctl restart nginx
 
-` ```bash
+```bash
 /etc/nginx/nginx.conf
-``` `
+```
 
 ---
 
@@ -319,7 +318,7 @@ Install the package using the following command.
 Avoid:
 
 You should probably try installing the package.
-```
+````
 ---
 
 ## Commit Message Guidelines
