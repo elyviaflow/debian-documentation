@@ -1,15 +1,16 @@
 # Contributing to ElyviaFlow Debian Docs
 
-Thank you for taking the time to contribute. This document outlines the process and conventions for submitting contributions to this repository.
+Thank you for taking the time to contribute. This document explains the standards, workflow, and structure used in this repository.
 
 ---
 
 ## Table of Contents
 
-```
+```text
 CONTRIBUTING.md
 │
 ├── Code of Conduct
+├── Repository Structure
 ├── How to Contribute
 │   ├── Reporting Issues
 │   ├── Suggesting New Topics
@@ -22,104 +23,243 @@ CONTRIBUTING.md
 │
 ├── Commit Message Guidelines
 └── Review Process
+
+
+---
+
+Code of Conduct
+
+By participating in this project, you agree to maintain a respectful and constructive environment.
+
+Respect other contributors
+
+Focus criticism on content, not people
+
+Keep discussions professional and technical
+
+Help maintain beginner-friendly documentation quality
+
+
+
+---
+
+Repository Structure
+
+This repository is organized by Debian version and category.
+
+```
+debian-documentation/
+│
+├── debian-version-codename/
+│   ├── installation/
+│   ├── web-server/
+│   ├── databases/
+│   ├── application/
+│   ├── security/
+│   ├── troubleshooting/
+│   └── README.md
+│
+├── CONTRIBUTING.md
+└── README.md
+
+Example Structure
+
+debian-12-bookworm/
+│
+├── installation/
+│   ├── installation.md
+│   ├── ip-address-configuration.md
+│   ├── repository-configuration.md
+│   ├── openssh-server-configuration.md
+│   ├── domain-name-server-configuration.md
+│   └── isc-dhcp-server-configuration.md
+│
+├── web-server/
+│   ├── apache2-configuration.md
+│   ├── nginx-configuration.md
+│   ├── virtual-host-configuration.md
+│   ├── routing-configuration.md
+│   ├── ssl-https-configuration.md
+│   └── firewall-configuration.md
+│
+├── databases/
+│   ├── mariadb-configuration.md
+│   ├── phpmyadmin-configuration.md
+│   ├── database-backup-configuration.md
+│   └── database-restore-configuration.md
+│
+├── application/
+│   ├── php-configuration.md
+│   ├── composer-configuration.md
+│   ├── permissions-configuration.md
+│   ├── laravel-configuration.md
+│   └── codeigniter-configuration.md
+│
+├── security/
+│   ├── ufw-configuration.md
+│   ├── fail2ban-configuration.md
+│   └── ssh-hardening-configuration.md
+│
+├── troubleshooting/
+│   ├── nginx-error-fix.md
+│   ├── apache2-error-fix.md
+│   ├── mariadb-error-fix.md
+│   ├── php-error-fix.md
+│   └── network-error-fix.md
+│
+└── README.md
 ```
 
 ---
 
-## Code of Conduct
+How to Contribute
 
-By participating in this project, you agree to maintain a respectful and constructive environment. Criticism of content is welcome — criticism of people is not.
+Reporting Issues
+
+If you find:
+
+Incorrect commands
+
+Outdated configurations
+
+Broken formatting
+
+Missing explanations
+
+Typographical errors
+
+
+Please open an issue.
+
+Steps:
+
+1. Open an issue
+
+
+2. Use a clear descriptive title
+
+
+3. Mention the affected file path
+
+
+4. Explain the problem clearly
+
+
+5. Provide the corrected information if possible
+
+
+
+Example:
+
+debian-12-bookworm/web-server/nginx-configuration.md
+
+> Note: Search existing issues before opening a new one to avoid duplicates.
+
+
+
 
 ---
 
-## How to Contribute
+Suggesting New Topics
 
-### Reporting Issues
+To suggest a new documentation topic:
 
-If you find an error, outdated command, or unclear explanation:
+1. Open an issue with the enhancement label
 
-1. Open an [Issue](../../issues/new)
-2. Use a clear, descriptive title
-3. Include the affected file path (e.g., `05-security/ssh-remote-access.md`)
-4. Describe what is wrong and, if possible, what the correct information should be
 
-> **Note:** Please check existing issues before opening a new one to avoid duplicates.
+2. Explain the topic
+
+
+3. Mention supported Debian versions
+
+
+4. Explain why the topic is useful
+
+
+
+Examples:
+
+Docker installation
+
+Redis configuration
+
+Node.js deployment
+
+Reverse proxy setup
+
+Monitoring tools
+
+
+If you want to write the guide yourself, mention it in the issue.
+
 
 ---
 
-### Suggesting New Topics
+Submitting a Pull Request
 
-To suggest a topic that isn't currently covered:
-
-1. Open an [Issue](../../issues/new) with the label `enhancement`
-2. Describe the topic and why it would be useful
-3. Mention which Debian versions it applies to
-
-If you plan to write the guide yourself, mention that in the issue so it can be assigned to you.
-
----
-
-### Submitting a Pull Request
-
-```
 1. Fork this repository
       │
-      ├── 2. Clone your fork locally
-      │         git clone https://github.com/your-username/repo-name.git
+      ├── 2. Clone your fork
+      │         git clone https://github.com/your-username/debian-documentation.git
       │
       ├── 3. Create a new branch
-      │         git checkout -b fix/ssh-keygen-step
-      │         git checkout -b docs/add-ufw-guide
+      │         git checkout -b docs/add-nginx-guide
+      │         git checkout -b fix/mariadb-command-error
       │
       ├── 4. Make your changes
-      │         Follow the document conventions below
+      │         Follow repository conventions
       │
-      ├── 5. Commit your changes
-      │         git commit -m "docs: add UFW basic configuration guide"
+      ├── 5. Commit changes
+      │         git commit -m "docs: add nginx reverse proxy guide"
       │
-      ├── 6. Push to your fork
+      ├── 6. Push branch
       │         git push origin your-branch-name
       │
       └── 7. Open a Pull Request
-                Describe what changed and why
-```
+                Explain what changed and why
+
 
 ---
 
-## Document Conventions
+Document Conventions
 
-### File & Folder Naming
+File & Folder Naming
 
-| Rule | Example |
-|------|---------|
-| Lowercase only | ✅ `ssh-remote-access.md` |
-| Words separated by hyphens | ✅ `initial-setup.md` |
-| No spaces or underscores | ❌ `SSH Remote Access.md`, `ssh_setup.md` |
-| Place files in the correct category folder | ✅ `05-security/firewall-configuration.md` |
+Rule	Example
 
-Folder structure reference:
+Lowercase only	✅ nginx-configuration.md
+Use hyphens	✅ ssl-https-configuration.md
+No spaces	❌ Nginx Configuration.md
+No underscores	❌ nginx_configuration.md
+Use descriptive names	✅ database-backup-configuration.md
+Place files in the correct category	✅ security/ufw-configuration.md
 
-```
-01-system/
-02-networking/
-03-web-servers/
-    ├── nginx/
-    └── apache/
-04-databases/
-05-security/
-06-maintenance/
-```
+
 
 ---
 
-### Markdown Formatting
+Category Placement Rules
 
-Every document should follow this structure:
+Category	Content Type
 
-```markdown
-# Title of the Guide
+installation/	OS installation and basic setup
+web-server/	Apache, Nginx, SSL, virtual hosts
+databases/	MariaDB, MySQL, backups, restore
+application/	PHP, Composer, Laravel, CodeIgniter
+security/	Firewall, Fail2Ban, SSH hardening
+troubleshooting/	Error fixes and debugging
 
-Brief one or two sentence description of what this guide covers.
+
+
+---
+
+Markdown Formatting
+
+Every guide should follow this structure:
+
+# Guide Title
+
+Short explanation about what this guide covers.
 
 ---
 
@@ -127,111 +267,170 @@ Brief one or two sentence description of what this guide covers.
 
 - Debian 11 / 12 / 13
 - Root or sudo access
-- Any other requirements
+- Internet connection
 
 ---
 
-## Section Title
+## Installation
 
 Explanation text here.
 
 ```bash
-# Commands go in fenced code blocks with language tags
+# run as root
 apt update && apt upgrade -y
 ```
 
-> **Note:** Use blockquotes for tips, warnings, or important callouts.
+> **Note:** Use blockquotes for important notes or warnings.
+
+---
+
+## Verification
+
+Explain how to verify the configuration.
+
+```bash
+systemctl status nginx
+```
 
 ---
 
 ## Next Steps
 
-- Link to related guide
-- Link to related guide
-```
+- Related guide link
+- Related guide link
 
-**Additional formatting rules:**
-
-- Use `##` for main sections, `###` for subsections — never skip heading levels
-- All code blocks must specify a language tag: ` ```bash `, ` ```nginx `, ` ```sql `, etc.
-- File paths should use inline code: `edit /etc/nginx/nginx.conf`
-- Commands that require root should include a comment: `# run as root` or use `sudo`
 
 ---
 
-### Writing Style
+Additional Formatting Rules
 
-| Guideline | Detail |
-|-----------|--------|
-| **Voice** | Direct and instructional. Write "Run this command" not "You should run this command" |
-| **Tense** | Present tense throughout |
-| **Audience** | Assume basic Linux familiarity, not advanced sysadmin knowledge |
-| **Language** | English only for consistency |
-| **Brevity** | Explain the *what* and *why*, not just the *how* — but keep it concise |
-| **Testing** | Only document commands you have personally tested |
+Use # only once for the page title
+
+Use ## for main sections
+
+Use ### for subsections
+
+Never skip heading levels
+
+Always specify language tags for code blocks
+
+Use inline code formatting for:
+
+Commands
+
+File paths
+
+Service names
+
+Configuration files
+
+
+
+Examples:
+
+`systemctl restart nginx`
+
+`/etc/nginx/nginx.conf`
+
 
 ---
 
-## Commit Message Guidelines
+Writing Style
 
-Follow the [Conventional Commits](https://www.conventionalcommits.org/) format:
+Guideline	Description
 
-```
+Voice	Direct and instructional
+Language	English only
+Audience	Beginner-friendly
+Tense	Present tense
+Style	Clear and concise
+Explanations	Explain what and why
+Accuracy	Only document tested commands
+
+
+Preferred:
+
+Install the package using the following command.
+
+Avoid:
+
+You should probably try installing the package.
+
+
+---
+
+Commit Message Guidelines
+
+Use the Conventional Commits format:
+
 <type>: <short description>
-```
 
-| Type | When to use |
-|:----:|-------------|
-| `docs` | Adding or updating documentation content |
-| `fix` | Correcting an error, broken command, or outdated info |
-| `feat` | Adding a new guide or section |
-| `refactor` | Restructuring or reformatting without content changes |
-| `chore` | Repository maintenance (README, .gitignore, etc.) |
+Allowed Types
 
-**Examples:**
+Type	Usage
 
-```bash
-docs: add MariaDB remote access configuration
-fix: correct ufw rule syntax in firewall guide
-feat: add Debian 13 Trixie installation section
-refactor: restructure nginx folder into subpages
-```
+docs	Documentation updates
+fix	Error corrections
+feat	New guide or feature
+refactor	Structure or formatting improvements
+chore	Repository maintenance
 
-Keep the description under 72 characters. Use the PR body for longer explanations.
+
+Examples
+
+docs: add phpmyadmin installation guide
+fix: correct nginx server block syntax
+feat: add Debian 13 installation documentation
+refactor: reorganize troubleshooting section
+chore: update repository README
+
+Rules:
+
+Keep messages under 72 characters
+
+Use lowercase
+
+Be specific and concise
+
+
 
 ---
 
-## Review Process
+Review Process
 
-```
 Pull Request Opened
       │
-      ├── Automated checks (formatting, broken links)
+      ├── Structure validation
+      │     ├── Correct folder placement
+      │     ├── Correct file naming
+      │     └── Markdown formatting
       │
       ├── Content review
-      │     ├── Accuracy — is the information correct?
-      │     ├── Clarity — is it easy to follow?
-      │     └── Conventions — does it match this guide?
+      │     ├── Accuracy
+      │     ├── Clarity
+      │     ├── Readability
+      │     └── Debian version compatibility
       │
       ├── Changes requested (if needed)
-      │     └── Author revises → re-review
+      │     └── Contributor updates PR
       │
       └── Approved & Merged
-```
 
-Response time target: **within 7 days** for initial review.  
-If your PR has not received a response after 7 days, feel free to leave a comment to follow up.
+Target review response time:
+
+Initial review: within 7 days
+
+Follow-up review: within 3 days after updates
+
+
+If there is no response after 7 days, feel free to leave a follow-up comment.
+
 
 ---
 
-<div align="center">
+<div align="center"><br/>Thank you for contributing to ElyviaFlow Debian Docs.
 
-<br/>
+ElyviaFlow
 
-Thank you for helping make this documentation better.
-
-**ElyviaFlow**
-
-<br/>
-
-</div>
+<br/></div>
+```
