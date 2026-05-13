@@ -40,7 +40,7 @@ This documentation was built from **real server implementations and testing envi
 | Debian 11 | Bullseye | ✅ Supported |
 | Debian 12 | Bookworm | ✅ Supported |
 | Debian 13 | Trixie | ✅ Supported |
-| Latest | Rolling | ✅ Supported |
+| Latest | Rolling | 🔁 Upcoming |
 
 ---
 
