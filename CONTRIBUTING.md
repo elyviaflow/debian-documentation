@@ -23,7 +23,7 @@ CONTRIBUTING.md
 │
 ├── Commit Message Guidelines
 └── Review Process
-
+```
 
 ---
 
