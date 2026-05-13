@@ -252,7 +252,6 @@ Short explanation about what this guide covers.
 # run as root
 apt update && apt upgrade -y
 ```
-````
 
 > **Note:** Use blockquotes for important notes or warnings.
 
@@ -265,8 +264,7 @@ Explain how to verify the configuration.
 ```bash
 systemctl status nginx
 ```
-
-> **Note:** Use blockquotes for important notes or warnings.
+````
 ---
 
 ## Next Steps
