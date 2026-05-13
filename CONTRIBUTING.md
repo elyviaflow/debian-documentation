@@ -251,7 +251,7 @@ Short explanation about what this guide covers.
 ```bash
 # run as root
 apt update && apt upgrade -y
-```
+
 
 > **Note:** Use blockquotes for important notes or warnings.
 
