@@ -265,8 +265,9 @@ Explain how to verify the configuration.
 ```bash
 systemctl status nginx
 ```
-````
+
 > **Note:** Use blockquotes for important notes or warnings.
+````
 ---
 
 ## Next Steps
