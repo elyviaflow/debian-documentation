@@ -203,7 +203,8 @@ Explain what changed and why
 
 **File & Folder Naming**
 
-|      Rule      |      Example      |
+| Rule | Example |
+|:----:|:-------:|
 
 |      Lowercase only      |      ✅ nginx-configuration.md      |
 |Use hyphens      |      ✅ ssl-https-configuration.md      |
