@@ -272,7 +272,6 @@ systemctl status nginx
 - Related guide link
 - Related guide link
 
----
 ```
 Additional Formatting Rules
 
@@ -319,7 +318,7 @@ You should probably try installing the package.
 ---
 
 ## Commit Message Guidelines
-Use the Conventional Commits format:
+Use the Conventional Commits format:<br>
 ```<type>: <short description>```
 
 **Allowed Types**
@@ -334,11 +333,13 @@ Use the Conventional Commits format:
 
 
 **Examples**
+```bash
 docs: add phpmyadmin installation guide
 fix: correct nginx server block syntax
 feat: add Debian 13 installation documentation
 refactor: reorganize troubleshooting section
 chore: update repository README
+```
 
 **Rules:**
 
@@ -368,14 +369,11 @@ Pull Request Opened
       │
       └── Approved & Merged
 ```
-Target review response time:
+**Target review response time:**
+- Initial review: within 7 days
+- Follow-up review: within 3 days after updates
 
-Initial review: within 7 days
-
-Follow-up review: within 3 days after updates
-
-
-If there is no response after 7 days, feel free to leave a follow-up comment.
+> *If there is no response after 7 days, feel free to leave a follow-up comment.*
 
 
 ---
@@ -386,4 +384,4 @@ If there is no response after 7 days, feel free to leave a follow-up comment.
       <img src="https://assets.celestiahub.web.id/img/elyvianame.png" alt="ElyviaName PNG" width="500">
 </p>
 
-<br/></div>
+</div>
