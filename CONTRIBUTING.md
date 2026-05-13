@@ -229,7 +229,7 @@ Explain what changed and why
 ## Markdown Formatting
 
 Every guide should follow this structure:
-```
+`
 # Guide Title
 
 Short explanation about what this guide covers.
@@ -248,10 +248,11 @@ Short explanation about what this guide covers.
 
 **Explanation text here.**
 
-` ```bash
+```bash
 # run as root
 apt update && apt upgrade -y
-``` `
+```
+````
 
 > **Note:** Use blockquotes for important notes or warnings.
 
@@ -264,7 +265,8 @@ Explain how to verify the configuration.
 ```bash
 systemctl status nginx
 ```
-
+`
+> **Note:** Use blockquotes for important notes or warnings.
 ---
 
 ## Next Steps
@@ -291,7 +293,9 @@ Always specify language tags for code blocks
 
 systemctl restart nginx
 
+` ```bash
 /etc/nginx/nginx.conf
+``` `
 
 ---
 
