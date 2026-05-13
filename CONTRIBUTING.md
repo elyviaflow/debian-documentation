@@ -289,7 +289,9 @@ Always specify language tags for code blocks
 
 **Examples:**
 
+```bash
 systemctl restart nginx
+```
 
 ```bash
 /etc/nginx/nginx.conf
@@ -308,6 +310,9 @@ systemctl restart nginx
 |Style|Clear and concise|
 |Explanations|Explain what and why|
 |Accuracy|Only document tested commands|
+
+## Example HyperLink
+Follow the [Guidelines](https://guidelines.elyviaflow.com/)
 
 Preferred:
 
