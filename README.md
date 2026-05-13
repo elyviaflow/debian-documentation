@@ -74,8 +74,8 @@ debian-documentation/
 │   │   ├── mariadb-error-fix.md
 │   │   ├── php-error-fix.md
 │   │   └── network-error-fix.md
-│   ├── CONTRIBUTING.md
 │   └── README.md
+│
 ├── CONTRIBUTING.md
 └── README.md
 ```
