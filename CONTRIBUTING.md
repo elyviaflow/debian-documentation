@@ -114,7 +114,7 @@ debian-11-bullseye/
 
 ### Reporting Issues
 
-If you find:
+**If you find:**
 
 - Incorrect commands
 - Outdated configurations
@@ -290,8 +290,9 @@ Always specify language tags for code blocks
 
 **Examples:**
 
-```systemctl restart nginx```
-```/etc/nginx/nginx.conf```
+systemctl restart nginx
+
+/etc/nginx/nginx.conf
 
 ---
 
@@ -315,7 +316,6 @@ Avoid:
 
 You should probably try installing the package.
 
-```
 ---
 
 ## Commit Message Guidelines
