@@ -38,38 +38,44 @@ This documentation was built from **real server implementations and testing envi
 ```
 debian-documentation/
 │
-├── debian-11-bullseye/
-│   ├── installation.md
-│   ├── initial-setup.md
-│   └── performance-optimization.md
-│
-├── debian-12-bookworm/
-│   ├── network-configuration.md
-│   ├── dns-server.md
-│   └── virtual-hosts.md
-│
-├── debian-13-trixie/
-│   ├── nginx/
-│   │   ├── installation.md
-│   │   └── configuration.md
-│   ├── apache/
-│   │   ├── installation.md
-│   │   └── configuration.md
-│   └── php-configuration.md
-│
-├── 04-databases/
-│   ├── mariadb.md
-│   └── mysql.md
-│
-├── 05-security/
-│   ├── ssh-remote-access.md
-│   ├── firewall-configuration.md
-│   └── security-hardening.md
-│
-├── 06-maintenance/
-│   ├── troubleshooting.md
-│   └── ...
-│
+├── debian-version-codename/
+│   ├── installation/
+│   │   ├── instalation.md
+│   │   ├── ip-address-configuration.md
+│   │   ├── repository-configuration.md
+│   │   ├── openssh-server-configuration.md
+│   │   ├── domain-name-server-configuration.md
+│   │   └── isc-dhcp-server-configuration.md
+│   ├── web-server/
+│   │   ├── apache2-configuration.md
+│   │   ├── nginx-configuration.md
+│   │   ├── virtual-host-configuration.md
+│   │   ├── routing-configuration.md
+│   │   ├── ssl-https-configuration.md
+│   │   └── firewall-configuration.md
+│   ├── databases/
+│   │   ├── mariadb-configuration.md
+│   │   ├── phpmyadmin-configuration.md
+│   │   ├── database-backup-configuration.md
+│   │   └── database-restore-configuration.md
+│   ├── application/
+│   │   ├── php-configuration.md
+│   │   ├── composer-configuration.md
+│   │   ├── permissions-configuration.md
+│   │   ├── laravel-configuration.md
+│   │   └── codeigniter-configuration.md
+│   ├── security/
+│   │   ├── ufw-configuration.md
+│   │   ├── fail2ban-configuration.md
+│   │   └── ssh-hardening-configuration.md
+│   ├── troubleshooting/
+│   │   ├── nginx-error-fix.md
+│   │   ├── apache2-error-fix.md
+│   │   ├── mariadb-error-fix.md
+│   │   ├── php-error-fix.md
+│   │   └── network-error-fix.md
+│   ├── CONTRIBUTING.md
+│   └── README.md
 ├── CONTRIBUTING.md
 └── README.md
 ```
@@ -78,30 +84,35 @@ debian-documentation/
 
 ## Getting Started
 
-Recommended reading order for a clean Debian server setup:
+Recommended reading order for setting up a clean and stable Debian server environtment:
 
 ```
-1. System → Installation
-         └── Initial Setup
-               └── Performance Optimization
+### 📦 Debian 11 Bullseye
+- [Installation](./debian-11-bullseye/installation/installation.md)
+- [Web Server](./debian-11-bullseye/web-server/)
+- [Databases](./debian-11-bullseye/databases/)
+- [Application](./debian-11-bullseye/application/)
+- [Security](./debian-11-bullseye/security/)
+- [Troubleshooting](./debian-11-bullseye/troubleshooting/)
 
-2. Security → SSH & Remote Access
-            └── Firewall Configuration
-                  └── Security Hardening
+### 📦 Debian 12 Bookworm
+- [Installation](./debian-12-bookworm/installation/installation.md)
+- [Web Server](./debian-12-bookworm/web-server/)
+- [Databases](./debian-12-bookworm/databases/)
+- [Application](./debian-12-bookworm/application/)
+- [Security](./debian-12-bookworm/security/)
+- [Troubleshooting](./debian-12-bookworm/troubleshooting/)
 
-3. Networking → Network Configuration
-              └── DNS Server
-                    └── Virtual Hosts
-
-4. Web Servers → Nginx or Apache
-               └── PHP Configuration
-
-5. Databases → MariaDB / MySQL
-
-6. Maintenance → Troubleshooting
+### 📦 Debian 13 Trixie
+- [Installation](./debian-13-trixie/installation/installation.md)
+- [Web Server](./debian-13-trixie/web-server/)
+- [Databases](./debian-13-trixie/databases/)
+- [Application](./debian-13-trixieapplication/)
+- [Security](./debian-13-trixie/security/)
+- [Troubleshooting](./debian-13-trixie/troubleshooting/)
 ```
-
-> **New to Debian?** Follow the order above top to bottom. Each section builds on the previous.
+> **📑 New To Debian?**
+> Start with the Installation section and continue in order for the best learning experience.
 
 ---
 
