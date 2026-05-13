@@ -229,7 +229,7 @@ Explain what changed and why
 ## Markdown Formatting
 
 Every guide should follow this structure:
-
+```
 # Guide Title
 
 Short explanation about what this guide covers.
@@ -254,6 +254,7 @@ apt update && apt upgrade -y
 ```
 
 > **Note:** Use blockquotes for important notes or warnings.
+```
 
 ---
 
