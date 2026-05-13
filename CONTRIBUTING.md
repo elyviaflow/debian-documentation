@@ -27,17 +27,15 @@ CONTRIBUTING.md
 
 ---
 
-Code of Conduct
+## Code of Conduct
 
 By participating in this project, you agree to maintain a respectful and constructive environment.
 
-Respect other contributors
+### Respect other contributors
 
-Focus criticism on content, not people
-
-Keep discussions professional and technical
-
-Help maintain beginner-friendly documentation quality
+- Focus criticism on content, not people
+- Keep discussions professional and technical
+- Help maintain beginner-friendly documentation quality
 
 
 
@@ -65,7 +63,7 @@ debian-documentation/
 ## Example Structure
 
 ```
-debian-12-bookworm/
+debian-11-bullseye/
 │
 ├── installation/
 │   ├── installation.md
@@ -113,7 +111,7 @@ debian-12-bookworm/
 
 ---
 
-How to Contribute
+# How to Contribute
 
 Reporting Issues
 
