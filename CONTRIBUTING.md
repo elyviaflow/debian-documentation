@@ -248,10 +248,10 @@ Short explanation about what this guide covers.
 
 **Explanation text here.**
 
-```bash
+` ```bash
 # run as root
 apt update && apt upgrade -y
-
+``` `
 
 > **Note:** Use blockquotes for important notes or warnings.
 
