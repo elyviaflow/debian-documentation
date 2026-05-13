@@ -61,9 +61,10 @@ debian-documentation/
 │
 ├── CONTRIBUTING.md
 └── README.md
+```
+## Example Structure
 
-Example Structure
-
+```
 debian-12-bookworm/
 │
 ├── installation/
