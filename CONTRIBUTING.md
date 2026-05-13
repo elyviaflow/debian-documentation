@@ -204,14 +204,13 @@ Explain what changed and why
 **File & Folder Naming**
 
 | Rule | Example |
-|:----:|:-------:|
-
-|      Lowercase only      |      ✅ nginx-configuration.md      |
-|Use hyphens      |      ✅ ssl-https-configuration.md      |
-|No spaces      |      ❌ Nginx Configuration.md      |
-|No underscores      |      ❌ nginx_configuration.md      |
-|Use descriptive names      |      ✅ database-backup-configuration.md      |
-|Place files in the correct category      |      ✅ security/ufw-configuration.md      |
+|:----------:|:----------:|
+|Lowercase only|✅ nginx-configuration.md|
+|Use hyphens|✅ ssl-https-configuration.md|
+|No spaces|❌ Nginx Configuration.md|
+|No underscores|❌ nginx_configuration.md|
+|Use descriptive names|✅ database-backup-configuration.md|
+|Place files in the correct category|✅ security/ufw-configuration.md|
 
 ---
 
