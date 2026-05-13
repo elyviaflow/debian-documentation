@@ -123,72 +123,54 @@ If you find:
 - Typographical errors
 
 ## Please open an issue.
-Steps:
+**Steps:**
 ```
 1. Open an issue
-
-
 2. Use a clear descriptive title
-
-
 3. Mention the affected file path
-
-
 4. Explain the problem clearly
-
-
 5. Provide the corrected information if possible
 
 ```
 
-Example:
+**Example:**
 ```bash
-debian-12-bookworm/web-server/nginx-configuration.md
+debian-11-bullseye/web-server/nginx-configuration.md
 ```
 
-> Note: Search existing issues before opening a new one to avoid duplicates.
+> **Note:** Search existing issues before opening a new one to avoid duplicates.
 
 
 ---
 
-Suggesting New Topics
+## Suggesting New Topics
 
-To suggest a new documentation topic:
-
+**To suggest a new documentation topic:**
+```
 1. Open an issue with the enhancement label
-
-
 2. Explain the topic
-
-
 3. Mention supported Debian versions
-
-
 4. Explain why the topic is useful
+```
 
+**Examples:**
 
+- Docker installation
+- Redis configuration
+- Node.js deployment
+- Reverse proxy setup
+- Monitoring tools
 
-Examples:
-
-Docker installation
-
-Redis configuration
-
-Node.js deployment
-
-Reverse proxy setup
-
-Monitoring tools
-
-
-If you want to write the guide yourself, mention it in the issue.
+> If you want to write the guide yourself, mention it in the issue.
 
 
 ---
 
-Submitting a Pull Request
+## Submitting a Pull Request
 
-1. Fork this repository
+**1. Fork this repository**
+`gh repo fork elyviaflow/debian-documentation`
+
       │
       ├── 2. Clone your fork
       │         git clone https://github.com/your-username/debian-documentation.git
