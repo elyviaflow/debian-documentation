@@ -86,7 +86,6 @@ debian-documentation/
 
 Recommended reading order for setting up a clean and stable Debian server environtment:
 
-```
 ### 📦 Debian 11 Bullseye
 - [Installation](./debian-11-bullseye/installation/installation.md)
 - [Web Server](./debian-11-bullseye/web-server/)
@@ -110,8 +109,8 @@ Recommended reading order for setting up a clean and stable Debian server enviro
 - [Application](./debian-13-trixieapplication/)
 - [Security](./debian-13-trixie/security/)
 - [Troubleshooting](./debian-13-trixie/troubleshooting/)
-```
-> **📑 New To Debian?**
+
+> **📑 New To Debian?**<br>
 > Start with the Installation section and continue in order for the best learning experience.
 
 ---
