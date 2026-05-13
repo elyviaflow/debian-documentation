@@ -324,12 +324,12 @@ Use the Conventional Commits format:<br>
 **Allowed Types**
 
 |Type|Usage|
-|----|-----|
-|docs|Documentation updates|
-|fix|Error corrections|
-|feat|New guide or feature|
-|refactor|Structure or formatting improvements|
-|chore|Repository maintenance|
+|:----:|-----|
+|`docs`|Documentation updates|
+|`fix`|Error corrections|
+|`feat`|New guide or feature|
+|`refactor`|Structure or formatting improvements|
+|`chore`|Repository maintenance|
 
 
 **Examples**
