@@ -252,7 +252,6 @@ Short explanation about what this guide covers.
 # run as root
 apt update && apt upgrade -y
 ```
-```
 
 > **Note:** Use blockquotes for important notes or warnings.
 
@@ -274,12 +273,12 @@ systemctl status nginx
 - Related guide link
 
 ---
-
+```
 Additional Formatting Rules
 
-Use # only once for the page title
-Use ## for main sections
-Use ### for subsections
+Use `#` only once for the page title
+Use `##` for main sections
+Use `###` for subsections
 Never skip heading levels
 Always specify language tags for code blocks
 
@@ -316,7 +315,7 @@ Install the package using the following command.
 Avoid:
 
 You should probably try installing the package.
-
+```
 ---
 
 ## Commit Message Guidelines
