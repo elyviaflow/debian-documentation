@@ -254,7 +254,6 @@ apt update && apt upgrade -y
 ```
 
 > **Note:** Use blockquotes for important notes or warnings.
-```
 
 ---
 
@@ -308,15 +307,15 @@ Always specify language tags for code blocks
 |Explanations|Explain what and why|
 |Accuracy|Only document tested commands|
 
-### Preferred:
+Preferred:
 
-> `Install the package using the following command.`
+Install the package using the following command.
 
-### Avoid:
+Avoid:
 
-> `You should probably try installing the package.`
+You should probably try installing the package.
 
-
+```
 ---
 
 ## Commit Message Guidelines
@@ -388,4 +387,3 @@ If there is no response after 7 days, feel free to leave a follow-up comment.
 </p>
 
 <br/></div>
-```
