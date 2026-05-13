@@ -130,7 +130,6 @@ If you find:
 3. Mention the affected file path
 4. Explain the problem clearly
 5. Provide the corrected information if possible
-
 ```
 
 **Example:**
@@ -204,7 +203,7 @@ Explain what changed and why
 **File & Folder Naming**
 
 | Rule | Example |
-|:----------:|:----------:|
+|----------|----------|
 |Lowercase only|✅ nginx-configuration.md|
 |Use hyphens|✅ ssl-https-configuration.md|
 |No spaces|❌ Nginx Configuration.md|
@@ -217,17 +216,17 @@ Explain what changed and why
 ## Category Placement Rules
 
 |Category|Content Type|
-
-|installation/|	OS installation and basic setup|
-|web-server/|	Apache, Nginx, SSL, virtual hosts|
-|databases/|	MariaDB, MySQL, backups, restore|
-|application/|	PHP, Composer, Laravel, CodeIgniter|
-|security/|	Firewall, Fail2Ban, SSH hardening|
-|troubleshooting/|	Error fixes and debugging|
+|--------|------------|
+|installation/|OS installation and basic setup|
+|web-server/|Apache, Nginx, SSL, virtual hosts|
+|databases/|MariaDB, MySQL, backups, restore|
+|application/|PHP, Composer, Laravel, CodeIgniter|
+|security/|Firewall, Fail2Ban, SSH hardening|
+|troubleshooting/|Error fixes and debugging|
 
 ---
 
-Markdown Formatting
+## Markdown Formatting
 
 Every guide should follow this structure:
 
@@ -247,7 +246,7 @@ Short explanation about what this guide covers.
 
 ## Installation
 
-Explanation text here.
+**Explanation text here.**
 
 ```bash
 # run as root
@@ -273,100 +272,79 @@ systemctl status nginx
 - Related guide link
 - Related guide link
 
-
 ---
 
 Additional Formatting Rules
 
 Use # only once for the page title
-
 Use ## for main sections
-
 Use ### for subsections
-
 Never skip heading levels
-
 Always specify language tags for code blocks
 
-Use inline code formatting for:
+**Use inline code formatting for:**
+- Commands
+- File paths
+- Service names
+- Configuration files
 
-Commands
+**Examples:**
 
-File paths
+```systemctl restart nginx```
+```/etc/nginx/nginx.conf```
 
-Service names
+---
 
-Configuration files
+## Writing Style
 
+|Guideline|Description|
+|---------|-----------|
+|Voice|Direct and instructional|
+|Language|English only|
+|Audience|Beginner-friendly|
+|Tense|Present tense|
+|Style|Clear and concise|
+|Explanations|Explain what and why|
+|Accuracy|Only document tested commands|
 
+### Preferred:
 
-Examples:
+> `Install the package using the following command.`
 
-`systemctl restart nginx`
+### Avoid:
 
-`/etc/nginx/nginx.conf`
+> `You should probably try installing the package.`
 
 
 ---
 
-Writing Style
-
-Guideline	Description
-
-Voice	Direct and instructional
-Language	English only
-Audience	Beginner-friendly
-Tense	Present tense
-Style	Clear and concise
-Explanations	Explain what and why
-Accuracy	Only document tested commands
-
-
-Preferred:
-
-Install the package using the following command.
-
-Avoid:
-
-You should probably try installing the package.
-
-
----
-
-Commit Message Guidelines
-
+## Commit Message Guidelines
 Use the Conventional Commits format:
+```<type>: <short description>```
 
-<type>: <short description>
+**Allowed Types**
 
-Allowed Types
-
-Type	Usage
-
-docs	Documentation updates
-fix	Error corrections
-feat	New guide or feature
-refactor	Structure or formatting improvements
-chore	Repository maintenance
+|Type|Usage|
+|----|-----|
+|docs|Documentation updates|
+|fix|Error corrections|
+|feat|New guide or feature|
+|refactor|Structure or formatting improvements|
+|chore|Repository maintenance|
 
 
-Examples
-
+**Examples**
 docs: add phpmyadmin installation guide
 fix: correct nginx server block syntax
 feat: add Debian 13 installation documentation
 refactor: reorganize troubleshooting section
 chore: update repository README
 
-Rules:
+**Rules:**
 
-Keep messages under 72 characters
-
-Use lowercase
-
-Be specific and concise
-
-
+- Keep messages under 72 characters
+- Use lowercase
+- Be specific and concise
 
 ---
 
