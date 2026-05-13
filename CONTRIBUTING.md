@@ -1,4 +1,4 @@
-# Contributing to ElyviaFlow Debian Docs
+# Contributing to ElyviaFlow
 
 Thank you for taking the time to contribute. This document explains the standards, workflow, and structure used in this repository.
 
@@ -38,10 +38,9 @@ By participating in this project, you agree to maintain a respectful and constru
 - Help maintain beginner-friendly documentation quality
 
 
-
 ---
 
-Repository Structure
+## Repository Structure
 
 This repository is organized by Debian version and category.
 
@@ -111,27 +110,21 @@ debian-11-bullseye/
 
 ---
 
-# How to Contribute
+## How to Contribute
 
-Reporting Issues
+### Reporting Issues
 
 If you find:
 
-Incorrect commands
+- Incorrect commands
+- Outdated configurations
+- Broken formatting
+- Missing explanations
+- Typographical errors
 
-Outdated configurations
-
-Broken formatting
-
-Missing explanations
-
-Typographical errors
-
-
-Please open an issue.
-
+## Please open an issue.
 Steps:
-
+```
 1. Open an issue
 
 
@@ -146,15 +139,14 @@ Steps:
 
 5. Provide the corrected information if possible
 
-
+```
 
 Example:
-
+```bash
 debian-12-bookworm/web-server/nginx-configuration.md
+```
 
 > Note: Search existing issues before opening a new one to avoid duplicates.
-
-
 
 
 ---
