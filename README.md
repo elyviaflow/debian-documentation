@@ -139,16 +139,36 @@ Recommended reading order for setting up a clean and stable Debian server enviro
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions, corrections, and additions are welcome.
+Contributions, improvements, fixes, and new documentation are always welcome.
+
+### How to Contribute
 
 1. Fork this repository
-2. Create a branch: <br>`git checkout -b fix/topic-name`
-3. Commit your changes: <br>`git commit -m "fix: clarify nginx config step"`
-4. Open a Pull Request
 
-Please follow the existing document structure and formatting conventions. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
+2. Create a new branch:
+
+```bash
+git checkout -b fix/topic-name
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "fix: improve nginx configuration guide"
+```
+
+4. Push your branch and open a Pull Request
+
+### Contribution Guidelines
+
+- Follow the existing folder structure
+- Keep documentation clear and beginner-friendly
+- Use proper Markdown formatting
+- Test commands before submitting documentation
+
+For more information, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
 
