@@ -36,19 +36,19 @@ This documentation was built from **real server implementations and testing envi
 ## Repository Structure
 
 ```
-elyviaflow-debian-docs/
+debian-documentation/
 │
-├── 01-system/
+├── debian-11-bullseye/
 │   ├── installation.md
 │   ├── initial-setup.md
 │   └── performance-optimization.md
 │
-├── 02-networking/
+├── debian-12-bookworm/
 │   ├── network-configuration.md
 │   ├── dns-server.md
 │   └── virtual-hosts.md
 │
-├── 03-web-servers/
+├── debian-13-trixie/
 │   ├── nginx/
 │   │   ├── installation.md
 │   │   └── configuration.md
@@ -134,7 +134,7 @@ Recommended reading order for a clean Debian server setup:
 Contributions, corrections, and additions are welcome.
 
 1. Fork this repository
-2. Create a branch: `git checkout -b fix/topic-name`
+2. Create a branch: <br>`git checkout -b fix/topic-name`
 3. Commit your changes: <br>`git commit -m "fix: clarify nginx config step"`
 4. Open a Pull Request
 
