@@ -169,60 +169,61 @@ debian-11-bullseye/web-server/nginx-configuration.md
 ## Submitting a Pull Request
 
 **1. Fork this repository**
-`gh repo fork elyviaflow/debian-documentation`
+```bash
+gh repo fork elyviaflow/debian-documentation
+```
+**2. Clone your fork**
+```bash
+git clone https://github.com/elyviaflow/debian-documentation.git
+```
+**3. Create a new branch**
+```bash
+git checkout -b docs/add-nginx-guide
+git checkout -b fix/mariadb-command-error
+```
+**4. Make your changes**
+```bash
+Follow repository conventions
+```
+**5. Commit changes**
+```bash
+git commit -m "docs: add nginx reverse proxy guide"
+```
+**6. Push branch**
+```bash
+git push origin your-branch-name
+```
+**7. Open a Pull Request**
+```bash
+Explain what changed and why
+```
+---
 
-      │
-      ├── 2. Clone your fork
-      │         git clone https://github.com/your-username/debian-documentation.git
-      │
-      ├── 3. Create a new branch
-      │         git checkout -b docs/add-nginx-guide
-      │         git checkout -b fix/mariadb-command-error
-      │
-      ├── 4. Make your changes
-      │         Follow repository conventions
-      │
-      ├── 5. Commit changes
-      │         git commit -m "docs: add nginx reverse proxy guide"
-      │
-      ├── 6. Push branch
-      │         git push origin your-branch-name
-      │
-      └── 7. Open a Pull Request
-                Explain what changed and why
+## Document Conventions
 
+**File & Folder Naming**
+
+|      Rule      |      Example      |
+
+|      Lowercase only      |      ✅ nginx-configuration.md      |
+|Use hyphens      |      ✅ ssl-https-configuration.md      |
+|No spaces      |      ❌ Nginx Configuration.md      |
+|No underscores      |      ❌ nginx_configuration.md      |
+|Use descriptive names      |      ✅ database-backup-configuration.md      |
+|Place files in the correct category      |      ✅ security/ufw-configuration.md      |
 
 ---
 
-Document Conventions
+## Category Placement Rules
 
-File & Folder Naming
+|Category|Content Type|
 
-Rule	Example
-
-Lowercase only	✅ nginx-configuration.md
-Use hyphens	✅ ssl-https-configuration.md
-No spaces	❌ Nginx Configuration.md
-No underscores	❌ nginx_configuration.md
-Use descriptive names	✅ database-backup-configuration.md
-Place files in the correct category	✅ security/ufw-configuration.md
-
-
-
----
-
-Category Placement Rules
-
-Category	Content Type
-
-installation/	OS installation and basic setup
-web-server/	Apache, Nginx, SSL, virtual hosts
-databases/	MariaDB, MySQL, backups, restore
-application/	PHP, Composer, Laravel, CodeIgniter
-security/	Firewall, Fail2Ban, SSH hardening
-troubleshooting/	Error fixes and debugging
-
-
+|installation/|	OS installation and basic setup|
+|web-server/|	Apache, Nginx, SSL, virtual hosts|
+|databases/|	MariaDB, MySQL, backups, restore|
+|application/|	PHP, Composer, Laravel, CodeIgniter|
+|security/|	Firewall, Fail2Ban, SSH hardening|
+|troubleshooting/|	Error fixes and debugging|
 
 ---
 
@@ -369,8 +370,8 @@ Be specific and concise
 
 ---
 
-Review Process
-
+## Review Process
+```
 Pull Request Opened
       │
       ├── Structure validation
@@ -388,7 +389,7 @@ Pull Request Opened
       │     └── Contributor updates PR
       │
       └── Approved & Merged
-
+```
 Target review response time:
 
 Initial review: within 7 days
@@ -403,7 +404,9 @@ If there is no response after 7 days, feel free to leave a follow-up comment.
 
 <div align="center"><br/>Thank you for contributing to ElyviaFlow Debian Docs.
 
-ElyviaFlow
+<p align="center">
+      <img src="https://assets.celestiahub.web.id/img/elyvianame.png" alt="ElyviaName PNG" width="500">
+</p>
 
 <br/></div>
 ```
