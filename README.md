@@ -29,7 +29,7 @@
 
 ## Overview
 
-This documentation covers the full lifecycle of Debian server administration — from initial provisioning to long-term maintenance. Every guide is derived from tested, real-world configurations across Debian 11, 12, and 13. No assumed expertise. No hand-waving.
+This documentation was built from **real server implementations and testing environments**, designed to help both beginners and sysadmins navigate Debian server management with confidence. Clear, structured, and always practical.
 
 ---
 
@@ -135,7 +135,7 @@ Contributions, corrections, and additions are welcome.
 
 1. Fork this repository
 2. Create a branch: `git checkout -b fix/topic-name`
-3. Commit your changes: `git commit -m "fix: clarify nginx config step"`
+3. Commit your changes: <br>`git commit -m "fix: clarify nginx config step"`
 4. Open a Pull Request
 
 Please follow the existing document structure and formatting conventions. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
@@ -152,10 +152,8 @@ Distributed under the [MIT License](LICENSE).
 
 <br/>
 
-Made with precision by **ElyviaFlow**
-
-*If this documentation helped you — consider leaving a ⭐*
-
+Made with ❤️ by **ElyviaFlow**  
+⭐ Star this repo if you find it helpful!
 <br/>
 
 </div>
