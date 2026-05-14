@@ -14,12 +14,13 @@
 [![Debian](https://img.shields.io/badge/Debian-11_%7C_12_%7C_13-A81D33?style=flat-square&logo=debian&logoColor=white)](https://www.debian.org/)
 [![License](https://img.shields.io/badge/License-MIT-4A90D9?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-2ECC71?style=flat-square)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-F39C12?style=flat-square)](CONTRIBUTING.md)
+[![VirtualBox Lab](https://img.shields.io/badge/VirtualBox-Lab%20Environment-183A61?style=flat-square&logo=virtualbox&logoColor=white)](#)
+[![ElyviaFlow Docs](https://img.shields.io/badge/ElyviaFlow-Debian%20Docs-6C5CE7?style=flat-square)](https://www.elyviaflow.com)
 
 <br/>
 
-*Built from real server implementations and testing environments.*  
-*From fresh install to production-ready — all in one place.*
+*Comprehensive Debian server documentation for VirtualBox lab environments.*  
+*Learn installation, configuration, security, and deployment step-by-step.*
 
 <br/>
 
