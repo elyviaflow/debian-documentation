@@ -8,7 +8,7 @@ tes
 </p>
 
 
-**Debian Server Administration — Practical Reference**
+**Debian Server Administration — Installation**
 
 <br/>
 
@@ -20,8 +20,8 @@ tes
 [![ElyviaFlow](https://img.shields.io/badge/ElyviaFlow-v1.0.0-6C5CE7?style=flat-square)](https://www.elyviaflow.com)
 <br/>
 
-*Comprehensive Debian server documentation for VirtualBox lab environments.*  
-*Learn installation, configuration, security, and deployment step-by-step.*
+*Step-by-step Debian 11 installation guide for VirtualBox environments.*
+*Learn how to set up and deploy a Debian server from scratch.*
 
 <br/>
 
@@ -49,11 +49,26 @@ Once the installation menu appears, select **Install** (not **Graphical Install*
 
 ## Step 04 - Select a Language
 Next, select the language option. Leave it as the default setting, <br/>
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-04.png" width="500">
+</p>
+
 ```bash
-English                 -   English
+English                         -   English
+```
+then press `Enter.`
+
+## Step 05 - Select your location
+Next, select your location based on the region where you are currently installing Debian. <br/>
+For example, since our location is in Indonesia, choose **Other** first. After the region menu appears, select **Asia** because Indonesia is part of the Asian region. Once the list of Asian countries appears, select **Indonesia**, then press Enter.
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-05.png" width="500">
+</p>
+
+```bash
+Other   ->  Asia    ->  Indonesian
 ```
 then press Enter.
-
 
 ---
 
