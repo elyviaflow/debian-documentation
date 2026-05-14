@@ -272,14 +272,14 @@ Then press **Enter.** to begin the partitioning process.
 ## Step 11 - Installing base System
 Next, the installer will begin the **Installing the Base System** process. Please wait until the installation is completed.
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.0.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.0.png" width="500">
 </p>
 
 ##
 
 After the base system installation finishes, you may be asked to scan another installation ISO image. Select **No**,
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.1.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.1.png" width="500">
 </p>
 
 **Select :**
@@ -292,7 +292,7 @@ Then press **Enter.**
 
 Next, when asked whether you want to use a network mirror for package installation, select **No**,
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.2.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.2.png" width="500">
 </p>
 
 **Select :**
@@ -305,7 +305,7 @@ Then press **Enter.**
 
 In the Configuring Popularity Contest menu, select **No**, 
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.3.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.3.png" width="500">
 </p>
 
 **Select :**
@@ -318,7 +318,7 @@ Then press **Enter.**
 
 After that, you will enter the **Software Selection** menu. Uncheck all options except **Standard System Utilities**,
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.4.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.4.png" width="500">
 </p>
 
 **Select :**
@@ -344,7 +344,7 @@ then continue by pressing **Enter.**
 
 Next, in the Install the GRUB Boot Loader menu, select **Yes**,
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.4.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.5.png" width="500">
 </p>
 
 **Select :**
@@ -357,7 +357,7 @@ then press **Enter** to continue.
 
 After that, choose the automatic boot loader installation target, usually **/dev/sda/**,
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.4.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.6.png" width="500">
 </p>
 
 **Select :**
@@ -370,7 +370,7 @@ then press **Enter.**
 
 Finally, select **Finish the Installation** to complete the Debian installation process.
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.4.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-11.1.7.png" width="500">
 </p>
 
 **Select :**
@@ -381,10 +381,10 @@ then press **Enter.**
 
 ---
 
-## Step 09 - Debian 11 Installed
+## Step 12 - Debian 11 Installed
 Next, log in to the system to ensure that the installation was completed successfully without any errors.
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-09.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-12.png" width="500">
 </p>
 
 ```bash
