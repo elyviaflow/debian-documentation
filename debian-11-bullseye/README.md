@@ -102,7 +102,7 @@ Always use official sources:
 - [`Debian ISO Downloads`](https://www.debian.org/CD/http-ftp/) — Main project page.
 
 ### 📦 3. Choose Debian Version
-**🧱 Debian 11 (Bullseye)**
+**🧱 Debian 11 (Bullseye)**<br/>
 Stable and lightweight, good for practice servers.
 | Official Page | Direct Download |
 |---------------|-----------------|

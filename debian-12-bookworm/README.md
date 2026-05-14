@@ -102,7 +102,7 @@ Always use official sources:
 - [`Debian ISO Downloads`](https://www.debian.org/CD/http-ftp/) — Main project page.
 
 ### 📦 3. Choose Debian Version
-**🧱 Debian 12 (Bullseye)**
+**🧱 Debian 12 (Bookworm)**<br/>
 Recommended for modern server environments.
 | Official Page | Direct Download |
 |---------------|-----------------|

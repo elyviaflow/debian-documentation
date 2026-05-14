@@ -102,7 +102,7 @@ Always use official sources:
 - [`Debian ISO Downloads`](https://www.debian.org/CD/http-ftp/) — Main project page.
 
 ### 📦 3. Choose Debian Version
-**🧱 Debian 13 (Bullseye)**<br/>
+**🧱 Debian 13 (Trixie)**<br/>
 Latest testing version for future-ready setups.
 | Official Page | Direct Download |
 |---------------|-----------------|
