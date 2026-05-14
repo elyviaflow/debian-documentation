@@ -17,6 +17,7 @@
 [![Documentation](https://img.shields.io/badge/Documentation-Stable-27AE60?style=flat-square)](#)
 [![VirtualBox Ready](https://img.shields.io/badge/VirtualBox-Ready-183A61?style=flat-square&logo=virtualbox&logoColor=white)](#)
 [![ElyviaFlow](https://img.shields.io/badge/ElyviaFlow-v1.0.0-6C5CE7?style=flat-square)](https://www.elyviaflow.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-F39C12?style=flat-square)](CONTRIBUTING.md)  
 <br/>
 
 *Comprehensive Debian server documentation for VirtualBox lab environments.*  
