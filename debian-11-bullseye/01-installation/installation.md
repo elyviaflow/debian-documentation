@@ -1,4 +1,3 @@
-tes
 <div align="center">
 
 <br/>
@@ -46,10 +45,12 @@ After that, locate the virtual machine you created in the machine list, then cli
 ---
 
 ## Step 03 - Select Install
-Once the installation menu appears, select **Install** (not **Graphical Install**) to continue the installation process, then press Enter.
+Once the installation menu appears, select **Install** (not **Graphical Install**) to continue the installation process,
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-03.png" width="500">
 </p>
+
+then press **Enter.**
 
 ---
 
@@ -189,7 +190,7 @@ then press **Enter.**
 
 ## Step 09 - Configure the Clock
 Next, in the **Configure the Clock** menu, select the time zone that matches your region.<br/>
-> For example, since we are located in **Java**, select **Western**, then press Enter.
+> For example, since we are located in **Java**, select **Western**,
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-09.png" width="500">
 </p>
@@ -244,7 +245,7 @@ Then press **Enter.**
 
 After the partition layout preview appears, select **Finish partitioning and write changes to disk**, 
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.3.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step--10.1.3.png" width="500">
 </p>
 
 **Select :**
