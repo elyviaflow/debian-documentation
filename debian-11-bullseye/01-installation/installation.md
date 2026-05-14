@@ -115,6 +115,8 @@ Next, in the **Configure the Network** menu, you will be asked to enter a hostna
 Example : `elyviaflow`<br/>
 Then press **Enter.**
 
+##
+
 After entering the hostname, you will be asked to enter a domain name or DNS name.
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-08.2.png" width="500">
@@ -122,6 +124,8 @@ After entering the hostname, you will be asked to enter a domain name or DNS nam
 
 Example : `elyviaflow.org`<br/>
 Then press **Enter.**
+
+##
 
 Next, in the **Set Up Users and Passwords** menu, you will be asked to create a password for the root user, which will be used to log in to Debian.
 <p align="center">
@@ -131,6 +135,8 @@ Next, in the **Set Up Users and Passwords** menu, you will be asked to create a 
 Example : `12345`<br/>
 Then press **Enter.**
 
+##
+
 After entering the root password, you will be asked to confirm it by entering the same password again.
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-08.3.1.png" width="500">
@@ -138,6 +144,8 @@ After entering the root password, you will be asked to confirm it by entering th
 
 Example : `12345`<br/>
 Then press **Enter.**
+
+##
 
 After that, you will be asked to create a second user account by entering the user's full name. This account will also be used to log in to Debian.
 <p align="center">
@@ -147,6 +155,8 @@ After that, you will be asked to create a second user account by entering the us
 Example : `elyvia`<br/>
 Then press **Enter.**
 
+##
+
 Next, enter the username for the second user account.
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-08.4.1.png" width="500">
@@ -154,6 +164,8 @@ Next, enter the username for the second user account.
 
 Example : `elyvia`<br/>
 Then press **Enter.**
+
+##
 
 After that, create a password for the second user account.
 <p align="center">
@@ -163,12 +175,96 @@ After that, create a password for the second user account.
 Example : `123`<br/>
 Then press **Enter.**
 
+##
+
 Finally, confirm the password for the second user account by entering the same password again,
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-08.4.3.png" width="500">
 </p>
 
+Example : `123`<br/>
 then press **Enter.**
+
+---
+
+## Step 09 - Configure the Clock
+Next, in the **Configure the Clock** menu, select the time zone that matches your region.<br/>
+> For example, since we are located in **Java**, select **Western**, then press Enter.
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-09.png" width="500">
+</p>
+
+```bash
+Westren (Sumatra, Jakarta, Java, West and Central Kalimantan)
+```
+After selecting it, press `Enter.`
+
+---
+
+## Step 10 - Partision Disk
+Next, you will enter the Partition Disks menu to configure the storage layout for Debian.<br/><br/>
+First, select **Guided - use entire disk** to let Debian automatically create the required partitions,
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.0.png" width="500">
+</p>
+
+**Select :**
+```bash
+Guided  -  use entire disk
+```
+Then press **Enter.**
+
+##
+
+After that, choose the disk that will be used for the installation. Usually, only one virtual disk will appear in VirtualBox. Select the available disk,
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.1.png" width="500">
+</p>
+
+**Select :**
+```bash
+SCSI2 (0,0,0) (sda)   -   53.7 GB ATA VBOX HARDISK
+```
+Then press **Enter.**
+
+##
+
+Next, choose the partitioning scheme. For beginners, it is recommended to select **All files in one partition (recommended for new users)**,
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.2.png" width="500">
+</p>
+
+**Select :**
+```bash
+All files in one partition (recommended for new users)
+```
+Then press **Enter.**
+
+##
+
+After the partition layout preview appears, select **Finish partitioning and write changes to disk**, 
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.2.png" width="500">
+</p>
+
+**Select :**
+```bash
+Finish partitioning and write changes to disk
+```
+Then press **Enter.**
+
+##
+
+A confirmation message will appear asking whether you want to save the changes to the disk. Select **Yes**,
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.2.png" width="500">
+</p>
+
+**Select :**
+```bash
+Yes
+```
+Then press **Enter.** to begin the partitioning process.
 
 ---
 
