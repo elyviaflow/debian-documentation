@@ -244,7 +244,7 @@ Then press **Enter.**
 
 After the partition layout preview appears, select **Finish partitioning and write changes to disk**, 
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.2.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.3.png" width="500">
 </p>
 
 **Select :**
@@ -257,7 +257,7 @@ Then press **Enter.**
 
 A confirmation message will appear asking whether you want to save the changes to the disk. Select **Yes**,
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.2.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-10.1.4.png" width="500">
 </p>
 
 **Select :**
