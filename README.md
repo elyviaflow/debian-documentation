@@ -132,7 +132,7 @@ Recommended reading order for setting up a clean and stable Debian server enviro
 |:-:|-----------|-------------|
 | 01 | **Installation** | Debian installation, repositories, SSH, DNS, and DHCP configuration |
 | 02 | **Web-Server** | Nginx, Apache, SSL, virtual hosts, routing, and firewall setup |
-| 03 | **Databases** | MariaDB, phpMyAdmin, backup, and restore management |
+| 03 | **Database** | MariaDB, phpMyAdmin, backup, and restore management |
 | 04 | **Application** | PHP, Composer, Laravel, CodeIgniter, and permissions setup |
 | 05 | **Security** | UFW, Fail2Ban, SSH hardening, and server protection |
 | 06 | **Troubleshooting** | Common fixes for web server, PHP, database, and network issues |
