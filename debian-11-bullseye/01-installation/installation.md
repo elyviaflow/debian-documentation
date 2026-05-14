@@ -50,6 +50,7 @@ Once the installation menu appears, select **Install** (not **Graphical Install*
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-03.png" width="500">
 </p>
+
 then press **Enter.**
 
 ---
