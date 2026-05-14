@@ -30,7 +30,7 @@
 
 ## Overview
 
-This documentation was built from **real server implementations and testing environments**, designed to help both beginners and sysadmins navigate Debian server management with confidence. Clear, structured, and always practical.
+This documentation is designed for **VirtualBox-based Debian server environments**, providing clear, structured, and practical step-by-step guides for learning Debian server administration, including installation, network configuration, web server deployment, database setup, application configuration, security hardening, and troubleshooting within a safe and flexible virtual lab environment.
 
 ---
 
