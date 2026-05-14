@@ -127,34 +127,11 @@ https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-D
 ```bash
 
 ```
-**🧱 Debian 13 (Bullseye)**
+**🧱 Debian 13 (Bullseye)**<br/>
 Latest testing version for future-ready setups.
 | Official Page | Direct Download |
 |---------------|-----------------|
-|`[Trixie](https://www.debian.org/releases/trixie/)`|`[Download ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-DVD-1.iso)`|
----
-
-## Supported Versions
-
-| Version | Codename | Released | Status |
-|:-------:|:--------:|:--------:|:------:|
-| Debian 11 | Bullseye | Aug 2021 | ✅ Supported |
-| Debian 12 | Bookworm | Jun 2023 | ✅ Supported |
-| Debian 13 | Trixie | 2025 | ✅ Supported |
-| Latest | Rolling | — | 🔁 Upcoming |
-
----
-
-## 📚 Topics at a Glance
-
-| # | Category | Description |
-|:-:|-----------|-------------|
-| 01 | **Installation** | Debian installation, repositories, SSH, DNS, and DHCP configuration |
-| 02 | **Web-Server** | Nginx, Apache, SSL, virtual hosts, routing, and firewall setup |
-| 03 | **Database** | MariaDB, phpMyAdmin, backup, and restore management |
-| 04 | **Application** | PHP, Composer, Laravel, CodeIgniter, and permissions setup |
-| 05 | **Security** | UFW, Fail2Ban, SSH hardening, and server protection |
-| 06 | **Troubleshooting** | Common fixes for web server, PHP, database, and network issues |
+|[Trixie](https://www.debian.org/releases/trixie/)|[Download ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-DVD-1.iso)|
 
 ---
 
