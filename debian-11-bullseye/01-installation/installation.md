@@ -106,6 +106,46 @@ After selecting it, press `Enter.`
 
 ---
 
+## Step 08 - Initial Setup
+Next, in the **Configure the Network** menu, you will be asked to enter a hostname for your server.
+
+Example : `elyviaflow`
+Then press **Enter.**
+
+After entering the hostname, you will be asked to enter a domain name or DNS name.
+
+Example : `elyviaflow.org`
+Then press **Enter.**
+
+Next, in the **Set Up Users and Passwords** menu, you will be asked to create a password for the root user, which will be used to log in to Debian.
+
+Example : `12345`
+Then press **Enter.**
+
+After entering the root password, you will be asked to confirm it by entering the same password again.
+
+Example : `12345`
+Then press **Enter.**
+
+After that, you will be asked to create a second user account by entering the user's full name. This account will also be used to log in to Debian.
+
+Example : `elyvia`
+Then press **Enter.**
+
+Next, enter the username for the second user account.
+
+Example : `elyvia`
+Then press **Enter.**
+
+After that, create a password for the second user account.
+
+Example : `123`
+Then press **Enter.**
+
+Finally, confirm the password for the second user account by entering the same password again, then press **Enter.**
+
+---
+
 <div align="center">
 
 <br/>
