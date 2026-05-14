@@ -1,4 +1,3 @@
-tes
 <div align="center">
 
 <br/>
@@ -191,7 +190,7 @@ then press **Enter.**
 
 ## Step 09 - Configure the Clock
 Next, in the **Configure the Clock** menu, select the time zone that matches your region.<br/>
-> For example, since we are located in **Java**, select **Western**, then press Enter.
+> For example, since we are located in **Java**, select **Western**,
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-09.png" width="500">
 </p>
