@@ -35,17 +35,23 @@ Create a new virtual machine, then rename it according to your preference. After
   <img src="https://assets.celestiahub.web.id/debian-11/step-01.png" width="500">
 </p>
 
+---
+
 ## Step 02 - Start the Virtual Machine
 After that, locate the virtual machine you created in the machine list, then click **Start** to boot it. Wait until the Debian installation menu appears.
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-02.png" width="500">
 </p>
 
+---
+
 ## Step 03 - Select Install
 Once the installation menu appears, select **Install** (not **Graphical Install**) to continue the installation process, then press Enter.
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-03.png" width="500">
 </p>
+
+---
 
 ## Step 04 - Select a Language
 Next, select the language option. Leave it as the default setting, <br/>
@@ -58,8 +64,10 @@ English                         -   English
 ```
 then press `Enter.`
 
+---
+
 ## Step 05 - Select your location
-Next, select your location based on the region where you are currently installing Debian. <br/>
+Next, select your location based on the region where you are currently installing Debian. <br/><br/>
 For example, since our location is in Indonesia, choose **Other** first. After the region menu appears, select **Asia** because Indonesia is part of the Asian region. Once the list of Asian countries appears, select **Indonesia**, then press Enter.
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-05.png" width="500">
@@ -68,7 +76,33 @@ For example, since our location is in Indonesia, choose **Other** first. After t
 ```bash
 Other   ->  Asia    ->  Indonesian
 ```
-then press Enter.
+then press `Enter.`
+
+---
+
+## Step 06 - Configure locales
+Next, in the locale configuration menu, leave the default option as:<br/>
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-06.png" width="500">
+</p>
+
+```bash
+United States                       -   en_US.UTF-8
+```
+then press `Enter.`
+
+---
+
+## Step 07 - Configure the Keyboard
+Next, in the keyboard configuration menu, select the keyboard layout you are using. The most common global keyboard layout is American English.<br/>
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/step-07.png" width="500">
+</p>
+
+```bash
+American English
+```
+After selecting it, press `Enter.`
 
 ---
 
