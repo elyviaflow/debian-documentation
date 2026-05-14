@@ -87,28 +87,28 @@ debian-documentation/
 Recommended reading order for setting up a clean and stable Debian server environtment:
 
 ### 📦 Debian 11 Bullseye
-- [Installation](./debian-11-bullseye/installation/installation.md)
-- [Web Server](./debian-11-bullseye/web-server/)
-- [Databases](./debian-11-bullseye/databases/)
-- [Application](./debian-11-bullseye/application/)
-- [Security](./debian-11-bullseye/security/)
-- [Troubleshooting](./debian-11-bullseye/troubleshooting/)
+- [Installation](./debian-11-bullseye/01-installation/installation.md)
+- [Web Server](./debian-11-bullseye/02-web-server/)
+- [Databases](./debian-11-bullseye/03-database/)
+- [Application](./debian-11-bullseye/04-application/)
+- [Security](./debian-11-bullseye/05-security/)
+- [Troubleshooting](./debian-11-bullseye/06-troubleshooting/)
 
 ### 📦 Debian 12 Bookworm
-- [Installation](./debian-12-bookworm/installation/installation.md)
-- [Web Server](./debian-12-bookworm/web-server/)
-- [Databases](./debian-12-bookworm/databases/)
-- [Application](./debian-12-bookworm/application/)
-- [Security](./debian-12-bookworm/security/)
-- [Troubleshooting](./debian-12-bookworm/troubleshooting/)
+- [Installation](./debian-12-bookworm/01-installation/installation.md)
+- [Web Server](./debian-12-bookworm/02-web-server/)
+- [Databases](./debian-12-bookworm/03-database/)
+- [Application](./debian-12-bookworm/04-application/)
+- [Security](./debian-12-bookworm/05-security/)
+- [Troubleshooting](./debian-12-bookworm/06-troubleshooting/)
 
 ### 📦 Debian 13 Trixie
-- [Installation](./debian-13-trixie/installation/installation.md)
-- [Web Server](./debian-13-trixie/web-server/)
-- [Databases](./debian-13-trixie/databases/)
-- [Application](./debian-13-trixieapplication/)
-- [Security](./debian-13-trixie/security/)
-- [Troubleshooting](./debian-13-trixie/troubleshooting/)
+- [Installation](./debian-13-trixie/01-installation/installation.md)
+- [Web Server](./debian-13-trixie/02-web-server/)
+- [Databases](./debian-13-trixie/03-database/)
+- [Application](./debian-13-trixie/04-application/)
+- [Security](./debian-13-trixie/05-security/)
+- [Troubleshooting](./debian-13-trixie/06-troubleshooting/)
 
 > **📑 New To Debian?**<br>
 > Start with the Installation section and continue in order for the best learning experience.
