@@ -11,9 +11,10 @@
 
 <br/>
 
-[![Debian](https://img.shields.io/badge/Debian-11_%7C_12_%7C_13-A81D33?style=flat-square&logo=debian&logoColor=white)](https://www.debian.org/)
+[![Debian 11](https://img.shields.io/badge/Debian-11-A81D33?style=flat-square&logo=debian)](#)
 [![License](https://img.shields.io/badge/License-MIT-4A90D9?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-2ECC71?style=flat-square)]()
+[![Documentation](https://img.shields.io/badge/Documentation-Stable-27AE60?style=flat-square)](#)
 [![VirtualBox Ready](https://img.shields.io/badge/VirtualBox-Ready-183A61?style=flat-square&logo=virtualbox&logoColor=white)](#)
 [![ElyviaFlow](https://img.shields.io/badge/ElyviaFlow-v1.0.0-6C5CE7?style=flat-square)](https://www.elyviaflow.com)
 <br/>
@@ -106,18 +107,6 @@ Stable and lightweight, good for practice servers.
 | Official Page | Direct Download |
 |---------------|-----------------|
 |[Trixie](https://www.debian.org/releases/bullseye/)|[Download ISO](https://cdimage.debian.org/cdimage/archive/11.0.0/amd64/iso-dvd/debian-11.0.0-amd64-DVD-1.iso)|
-
-**🧱 Debian 12 (Bullseye)**
-Recommended for modern server environments.
-| Official Page | Direct Download |
-|---------------|-----------------|
-|[Trixie](https://www.debian.org/releases/bookworm/)|[Download ISO](https://cdimage.debian.org/cdimage/archive/12.0.0/amd64/iso-dvd/debian-12.0.0-amd64-DVD-1.iso)|
-
-**🧱 Debian 13 (Bullseye)**<br/>
-Latest testing version for future-ready setups.
-| Official Page | Direct Download |
-|---------------|-----------------|
-|[Trixie](https://www.debian.org/releases/trixie/)|[Download ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-DVD-1.iso)|
 
 ---
 
