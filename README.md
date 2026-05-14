@@ -39,36 +39,36 @@ This documentation was built from **real server implementations and testing envi
 debian-documentation/
 │
 ├── debian-version-codename/
-│   ├── installation/
+│   ├── 01-installation/
 │   │   ├── instalation.md
 │   │   ├── ip-address-configuration.md
 │   │   ├── repository-configuration.md
 │   │   ├── openssh-server-configuration.md
 │   │   ├── domain-name-server-configuration.md
 │   │   └── isc-dhcp-server-configuration.md
-│   ├── web-server/
+│   ├── 02-web-server/
 │   │   ├── apache2-configuration.md
 │   │   ├── nginx-configuration.md
 │   │   ├── virtual-host-configuration.md
 │   │   ├── routing-configuration.md
 │   │   ├── ssl-https-configuration.md
 │   │   └── firewall-configuration.md
-│   ├── databases/
+│   ├── 03-database/
 │   │   ├── mariadb-configuration.md
 │   │   ├── phpmyadmin-configuration.md
 │   │   ├── database-backup-configuration.md
 │   │   └── database-restore-configuration.md
-│   ├── application/
+│   ├── 04-application/
 │   │   ├── php-configuration.md
 │   │   ├── composer-configuration.md
 │   │   ├── permissions-configuration.md
 │   │   ├── laravel-configuration.md
 │   │   └── codeigniter-configuration.md
-│   ├── security/
+│   ├── 05-security/
 │   │   ├── ufw-configuration.md
 │   │   ├── fail2ban-configuration.md
 │   │   └── ssh-hardening-configuration.md
-│   ├── troubleshooting/
+│   ├── 06-troubleshooting/
 │   │   ├── nginx-error-fix.md
 │   │   ├── apache2-error-fix.md
 │   │   ├── mariadb-error-fix.md
