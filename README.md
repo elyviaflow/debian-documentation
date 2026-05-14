@@ -16,6 +16,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-2ECC71?style=flat-square)]()
 [![VirtualBox Ready](https://img.shields.io/badge/VirtualBox-Ready-183A61?style=flat-square&logo=virtualbox&logoColor=white)](#)
 [![ElyviaFlow](https://img.shields.io/badge/ElyviaFlow-v1.0.0-6C5CE7?style=flat-square)](https://www.elyviaflow.com)
+[![PRs](https://img.shields.io/badge/PRs-Welcome-orange?style=for-the-badge)](#)
 
 <br/>
 
