@@ -64,7 +64,7 @@ debian-documentation/
 ```
 debian-11-bullseye/
 │
-├── installation/
+├── 01-installation/
 │   ├── installation.md
 │   ├── ip-address-configuration.md
 │   ├── repository-configuration.md
@@ -72,7 +72,7 @@ debian-11-bullseye/
 │   ├── domain-name-server-configuration.md
 │   └── isc-dhcp-server-configuration.md
 │
-├── web-server/
+├── 02-web-server/
 │   ├── apache2-configuration.md
 │   ├── nginx-configuration.md
 │   ├── virtual-host-configuration.md
@@ -80,25 +80,25 @@ debian-11-bullseye/
 │   ├── ssl-https-configuration.md
 │   └── firewall-configuration.md
 │
-├── databases/
+├── 03-database/
 │   ├── mariadb-configuration.md
 │   ├── phpmyadmin-configuration.md
 │   ├── database-backup-configuration.md
 │   └── database-restore-configuration.md
 │
-├── application/
+├── 04-application/
 │   ├── php-configuration.md
 │   ├── composer-configuration.md
 │   ├── permissions-configuration.md
 │   ├── laravel-configuration.md
 │   └── codeigniter-configuration.md
 │
-├── security/
+├── 05-security/
 │   ├── ufw-configuration.md
 │   ├── fail2ban-configuration.md
 │   └── ssh-hardening-configuration.md
 │
-├── troubleshooting/
+├── 06-troubleshooting/
 │   ├── nginx-error-fix.md
 │   ├── apache2-error-fix.md
 │   ├── mariadb-error-fix.md
