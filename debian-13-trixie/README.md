@@ -37,7 +37,7 @@ This documentation is designed for **VirtualBox-based Debian server environments
 ## Repository Structure
 
 ```
-debian-11-bullseye/
+debian-13-trixie/
 │   
 ├── 01-installation/
 │   ├── instalation.md
