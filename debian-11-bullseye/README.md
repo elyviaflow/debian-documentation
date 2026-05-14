@@ -93,20 +93,20 @@ Make sure your computer supports virtualization:
 - At least 30GB free storage
 
 **🧰 Required Software**
-- [Virtual Box](https://virtualbox.org/) — Virtual machine software
-- [Virtual Box](https://virtualbox.org/wiki/Downloads) — Optional (USB, RDP, extra features)
+- [`Virtual Box`](https://virtualbox.org/) — Virtual machine software
+- [`Virtual Box`](https://virtualbox.org/wiki/Downloads) — Optional (USB, RDP, extra features)
 
 ### 📥 2. Download Debian ISO (Official)
 Always use official sources:
-- [Debian Official Website](https://www.debian.org/) — Main project page.
-- [Debian ISO Downloads](https://www.debian.org/CD/http-ftp/) — Main project page.
+- [`Debian Official Website`](https://www.debian.org/) — Main project page.
+- [`Debian ISO Downloads`](https://www.debian.org/CD/http-ftp/) — Main project page.
 
 ### 📦 3. Choose Debian Version
 **🧱 Debian 11 (Bullseye)**
 Stable and lightweight, good for practice servers.
 | Official Page | Direct Download |
 |---------------|-----------------|
-|[Trixie](https://www.debian.org/releases/bullseye/)|[Download ISO](https://cdimage.debian.org/cdimage/archive/11.0.0/amd64/iso-dvd/debian-11.0.0-amd64-DVD-1.iso)|
+|[`Bullseye`](https://www.debian.org/releases/bullseye/)|[`Download ISO`](https://cdimage.debian.org/cdimage/archive/11.0.0/amd64/iso-dvd/debian-11.0.0-amd64-DVD-1.iso)|
 
 ---
 

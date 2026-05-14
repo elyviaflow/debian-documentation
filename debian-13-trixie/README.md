@@ -93,20 +93,20 @@ Make sure your computer supports virtualization:
 - At least 30GB free storage
 
 **🧰 Required Software**
-- [Virtual Box](https://virtualbox.org/) — Virtual machine software
-- [Virtual Box](https://virtualbox.org/wiki/Downloads) — Optional (USB, RDP, extra features)
+- [`Virtual Box`](https://virtualbox.org/) — Virtual machine software
+- [`Virtual Box`](https://virtualbox.org/wiki/Downloads) — Optional (USB, RDP, extra features)
 
 ### 📥 2. Download Debian ISO (Official)
 Always use official sources:
-- [Debian Official Website](https://www.debian.org/) — Main project page.
-- [Debian ISO Downloads](https://www.debian.org/CD/http-ftp/) — Main project page.
+- [`Debian Official Website`](https://www.debian.org/) — Main project page.
+- [`Debian ISO Downloads`](https://www.debian.org/CD/http-ftp/) — Main project page.
 
 ### 📦 3. Choose Debian Version
 **🧱 Debian 13 (Bullseye)**<br/>
 Latest testing version for future-ready setups.
 | Official Page | Direct Download |
 |---------------|-----------------|
-|[Trixie](https://www.debian.org/releases/trixie/)|[Download ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-DVD-1.iso)|
+|[`Trixie`](https://www.debian.org/releases/trixie/)|[`Download ISO`](https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.4.0-amd64-DVD-1.iso)|
 
 ---
 
