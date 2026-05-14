@@ -46,10 +46,11 @@ After that, locate the virtual machine you created in the machine list, then cli
 ---
 
 ## Step 03 - Select Install
-Once the installation menu appears, select **Install** (not **Graphical Install**) to continue the installation process, then press Enter.
+Once the installation menu appears, select **Install** (not **Graphical Install**) to continue the installation process,
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/step-03.png" width="500">
 </p>
+then press **Enter.**
 
 ---
 
