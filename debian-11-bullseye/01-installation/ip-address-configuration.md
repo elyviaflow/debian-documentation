@@ -62,7 +62,7 @@ Then click `OK`
 ## Step 03 - Start the Machine
 After completing the network configuration, power on the virtual machine again and log in as the **root** user as usual.
 <p align="center">
-  <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.3.png" width="500">
+  <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.3,0.jpeg" width="500">
 </p>
 
 Next, run the following command to check whether **Adapter 2** is active:
@@ -72,6 +72,9 @@ Next, run the following command to check whether **Adapter 2** is active:
 ip a
 ```
 > If the configuration was successful, the interface **enp0s8** should appear in the network interface list.
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.3,1.jpeg" width="500">
+</p>
 
 ---
 
