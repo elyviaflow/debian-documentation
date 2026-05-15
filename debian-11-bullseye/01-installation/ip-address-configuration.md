@@ -123,6 +123,7 @@ Next, check whether the network configuration has been applied correctly by runn
   <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.5.png" width="500">
 </p>
 If the configuration was successful, the network interface and IP address configuration should appear as shown in the image provided. The setup process is now complete.
+
 <br/>
 
 **command:**
