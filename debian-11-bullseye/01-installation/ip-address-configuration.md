@@ -56,6 +56,7 @@ Next, go to the **Network** section, then select **Adapter 2** and check Enable 
 > Finally, change the **Promiscuous Mode** setting to **Allow-All.**
 
 Then click `OK`
+
 ---
 
 <div align="center">
