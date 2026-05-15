@@ -83,6 +83,24 @@ If the configuration is correct and the **`enp0s8`** interface appears, the next
   <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.4.0.png" width="500">
 </p>
 
+**With subnet format /24**
+```bash
+allow-hotplug enp0s8
+iface enp0s8 inet static
+address 172.131.156.1/24
+network 172.131.156.0
+gateway 172.131.156.1
+```
+**Without subnet format /24**
+```bash
+allow-hotplug enp0s8
+iface enp0s8 inet static
+address 172.131.156.1
+netmask 255.255.255.0
+network 172.131.156.0
+gateway 172.131.156.1
+```
+
 Follow the configuration shown in the image provided. For simplicity, we will use the **`/24`** subnet format. Otherwise, you would need to manually add a **`netmask`** entry in the configuration.
 
 > To save the configuration in Nano, press **`Ctrl + O`**, then press **`Enter`**, and use **`Ctrl + X`** to exit the editor.
