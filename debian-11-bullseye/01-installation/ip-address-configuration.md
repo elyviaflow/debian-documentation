@@ -28,7 +28,7 @@
 ---
 
 ## Step 01 - Poweroff the machine
-Before doing this, make sure the virtual machine is powered off. If the machine is still running, shut it down first by entering the following command in the Debian console, then press Enter:
+Before doing this, make sure the virtual machine is powered off. If the machine is still running, shut it down first by entering the following command in the Debian console, then press **Enter**:
 <p align="center">
   <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.0.png" width="500">
 </p>
@@ -37,6 +37,23 @@ Before doing this, make sure the virtual machine is powered off. If the machine 
 ```bash
 poweroff
 ```
+
+---
+
+## Step 02 - Settings a Network
+After the virtual machine has been powered off, open the **Settings** menu of the installed machine.
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.1.png" width="500">
+</p>
+
+Next, go to the **Network** section, then select **Adapter 2** and check Enable Network Adapter to activate it.
+<p align="center">
+  <img src="https://assets.celestiahub.web.id/debian-11/ip-address/step-01.1.2.png" width="500">
+</p>
+
+> In the **Attached To** option, select **Host-Only Adapter**. After that, make sure the **Name** option is set to **VirtualBox Host-Only Ethernet Adapter**.
+
+Finally, change the **Promiscuous Mode** setting to **Allow-All.**
 
 ---
 
