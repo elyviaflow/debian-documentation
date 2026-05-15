@@ -53,8 +53,9 @@ Next, go to the **Network** section, then select **Adapter 2** and check Enable 
 
 > In the **Attached To** option, select **Host-Only Adapter**. After that, make sure the **Name** option is set to **VirtualBox Host-Only Ethernet Adapter**.
 
-Finally, change the **Promiscuous Mode** setting to **Allow-All.**
+> Finally, change the **Promiscuous Mode** setting to **Allow-All.**
 
+Then click `OK`
 ---
 
 <div align="center">
